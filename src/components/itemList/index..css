@@ -1,0 +1,11 @@
+.link-navbar{
+    font-size: 15px;
+    padding: 12px;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.link-navbar:hover{
+    background-color: snow;
+    border-radius: 5px;
+    color: black;
+}

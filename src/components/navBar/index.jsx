@@ -1,4 +1,5 @@
 import Carrito from "../carrito";
+import ItemList from "../itemList";
 
 const NavBar = () => {
     return(
@@ -8,9 +9,9 @@ const NavBar = () => {
                     <a href="">PAKANI</a>
                 </div>
                 <menu className="menu-navbar">
-                    <li className="item-navbar" ><a href="" className="link-navbar">Hombre</a></li>
-                    <li className="item-navbar" ><a href="" className="link-navbar">Mujer</a></li>
-                    <li className="item-navbar" ><a href="" className="link-navbar">Niños</a></li>
+                    <ItemList label="Hombre"/>
+                    <ItemList label="Mujer"/>
+                    <ItemList label="Niños"/>
                     <li className="icon-navbar"><a href=""><Carrito/></a></li>
                 </menu>
             </nav>

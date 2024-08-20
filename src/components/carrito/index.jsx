@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react';
-import Cantidad from '../cantidad';
+import Cantidad from '../contador';
 
 const Carrito = () => {
     return(
