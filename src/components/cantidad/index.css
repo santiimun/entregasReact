@@ -1,0 +1,10 @@
+.cantidad{
+    position: absolute;
+    background-color: snow;
+    padding: 2px 6px;
+    font-size: 10px;
+    border-radius: 20px;
+    top: -4px;
+    right: -4px;
+    color: black;
+}
