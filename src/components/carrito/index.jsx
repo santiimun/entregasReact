@@ -5,7 +5,7 @@ const Carrito = () => {
     return(
         <div className='carrito'>
             <Icon icon="mdi-light:cart" />
-            <Cantidad quantity={3}/>
+            <Cantidad quantity={0}/>
         </div>
     );
 };

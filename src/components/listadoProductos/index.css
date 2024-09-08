@@ -1,0 +1,10 @@
+
+.items-container{
+    justify-content: flex-end;
+    margin-top: 100px;
+    display: grid;
+    right: 0;
+    grid-template-columns: repeat(3,500px);
+    grid-auto-rows: 1fr;
+    gap:  24px;
+}

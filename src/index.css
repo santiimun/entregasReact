@@ -4,12 +4,22 @@
 @import './styles/shared.css';
 
 
+/* CONTAINERS*/
+
+@import './containers/navBar/index.css'; /*HEAADER*/
+@import './containers/footer/index.css';
+
+
+
 /* COMPONENTS */
 
-@import './components/navBar/index.css';
 @import './components/carrito/index.css';
 @import './components/contador/index.css';
-@import './components/itemList/index..css'
+@import './components/linkMenu/index..css';
+@import './components/producto/index.css';
+@import './components/listadoProductos/index.css';
+@import './components/detalleProducto/index.css';
+@import './components/contadorProductos/index.css';
 
 
 

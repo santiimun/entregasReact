@@ -1,0 +1,20 @@
+.detalle-boton{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+.detalle-cont, .detalle-input{
+    padding: 6.4px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+}
+.detalle-cont{
+    background-color: rgb(65, 63, 63);
+    color: white;
+    border: 3px solid rgb(65, 63, 63);
+    cursor: pointer;
+}

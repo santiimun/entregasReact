@@ -1,0 +1,11 @@
+.link-navbar{
+    font-size: 15px;
+    padding: 12px;
+    
+    cursor: pointer;
+}
+.link-navbar:hover{
+    
+    color: white;
+    border-bottom: 2px solid rgb(158, 155, 155)
+}
