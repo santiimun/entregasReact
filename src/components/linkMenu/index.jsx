@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 
-const LinkMenu = ( { label , href } ) => {
+const LinkMenu = ( { clase, label , href } ) => {
     return(
         <li className="item-navbar">
-            <NavLink className="link-navbar" to={href}>{label}</NavLink>
+            <NavLink className={clase} to={href}>{label}</NavLink>
         </li>
     )
 }

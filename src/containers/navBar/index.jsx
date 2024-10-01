@@ -13,10 +13,10 @@ const NavBar = () => {
                     <a href="/">PAKANI</a>
                 </div>
                 <menu className="menu-navbar">
-                    <LinkMenu label="INICIO" href={'/'}/>
-                    <LinkMenu label="TIENDA" href={'/tienda'}/>
-                    <LinkMenu label="CONTACTO" href={'/contacto'}/>
-                    <li className="icon-navbar"><a href="/carrito"><Carrito/></a></li>
+                    <LinkMenu clase="link-navbar" label="INICIO" href={'/'}/>
+                    <LinkMenu clase="link-navbar" label="TIENDA" href={'/tienda'}/>
+                    <LinkMenu clase="link-navbar" label="CONTACTO" href={'/contacto'}/>
+                    <LinkMenu label={<Carrito/>} className="icon-navbar" href={"/carrito"}/>
                 </menu>
             </nav>
         </header>

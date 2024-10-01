@@ -4,9 +4,10 @@
 @import './styles/shared.css';
 
 
+
 /* CONTAINERS*/
 
-@import './containers/navBar/index.css'; /*HEAADER*/
+@import './containers/navBar/index.css'; 
 @import './containers/footer/index.css';
 
 
@@ -20,7 +21,14 @@
 @import './components/listadoProductos/index.css';
 @import './components/detalleProducto/index.css';
 @import './components/contadorProductos/index.css';
+@import './components/cargando/index.css';
+@import './components/detalleCompra/index.css';
+@import './components/tarjetaCredito/index.css';
 
 
+/* PAGES */
 
-
+@import './pages/tienda/index.css';
+@import './pages/error404/index.css';
+@import './pages/detalle/index.css';
+@import './pages/carrito/index.css';

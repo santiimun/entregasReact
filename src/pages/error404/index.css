@@ -1,0 +1,33 @@
+.error{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center;  
+        gap: 20px;
+}
+.icono{
+    font-size: 70px;
+}
+.error-link{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+.error-link:hover{
+    background-color: gray;
+}
+
+li{
+    list-style: none;
+}
+.texto{
+    margin-bottom: 25px;
+}

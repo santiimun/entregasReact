@@ -41,6 +41,10 @@
     max-width: 70%;
 }
 .detalle-precio{
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    align-items: center;
     font-weight: bold;
     font-size: 22px;
 }
@@ -61,4 +65,24 @@
 }
 .detalle-agregar-cart:hover{
     background-color: #9b2121;
+}
+.breadcrumbs{
+    color: rgb(90, 87, 87);
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.breadcrumbs:hover{
+    color: black;
+}
+.detalle-general{
+    display: flex;
+    flex-direction: column;
+}
+.rutas-detalle{
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 50px;
+
 }

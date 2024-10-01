@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
+        "categoria": "Calzado",
         "codigo": "0000001",
-        "titulo":"ZAPATILLAS ADIDAS ORIGINALS ADI2000 DE HOMBRE",
+        "descripción": "Zapatillas Adidas Adi2000 De Moda para hombre Código: 0000001. Mostrá tu lado más rebelde con las zapatillas adi2000, inspiradas en la era audaz de principios de los 2000. Con un ADN de skate y una paleta de colores versátiles, estas zapatillas adidas fueron diseñadas pensando en tu estilo único. El diseño actualizado de las 3 Tiras aporta un toque divertido, mientras que el exterior de cuero y la suela de caucho se encargan de brindar comodidad.",
+        "estado": "NUEVO",
+        "img": "/img/adidas/adi2000.webp",
         "marca": "ADIDAS",
         "precio": "170.000" ,
-        "descripción": "Zapatillas Adidas Adi2000 De Moda para hombre Código: 0000001. Mostrá tu lado más rebelde con las zapatillas adi2000, inspiradas en la era audaz de principios de los 2000. Con un ADN de skate y una paleta de colores versátiles, estas zapatillas adidas fueron diseñadas pensando en tu estilo único. El diseño actualizado de las 3 Tiras aporta un toque divertido, mientras que el exterior de cuero y la suela de caucho se encargan de brindar comodidad.",
-        "img": "img/adidas/adi2000.webp",
-        "estado": "NUEVO",
-        "categoria": "Calzado"
+        "titulo":"ZAPATILLAS ADIDAS ORIGINALS ADI2000 DE HOMBRE"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "marca": "ADIDAS",
         "precio": "171.000" ,
         "descripción": "Zapatillas Adidas Campus 00S para hombre Código: 0000010. Aunque hicieron su debut en las canchas de básquet, las zapatillas adidas Campus fueron rápidamente adoptadas en casi todas partes. Con este par, llevamos la icónica silueta en otra dirección y le agregamos materiales, colores y proporciones modernos.",
-        "img":  "img/adidas/campus-verde.webp",
+        "img":  "/img/adidas/campus-verde.webp",
         "estado": "NUEVO",
         "categoria": "Calzado"
     },
@@ -28,9 +28,9 @@
         "marca": "ADIDAS",
         "precio": "183.500" ,
         "descripción": "Zapatillas Adidas Originals Superstar XLG para hombre Código: 0000011.Más que unas simples zapatillas, las adidas Superstar XLG son un ícono reimaginado. Sentí la historia con un toque contemporáneo gracias a su suave parte superior de cuero, una punta con relieve distintiva y una suela actualizada que transforma a una leyenda.",
-        "img": "img/adidas/superstar-XLG.webp",
+        "img": "/img/adidas/superstar-XLG.webp",
         "estado": "NUEVO",
-        "categoria": "Calzado"
+        "categoria": "Indumentaria"
     },
     {
         "id": 4,
@@ -39,7 +39,7 @@
         "marca": "NIKE",
         "precio": "350.000" ,
         "descripción": "Zapatillas Nike Air Max Plus Drif de hombre Código: 0000100. La tecnología revolucionaria Air se introdujo por primera vez en el calzado Nike en 1978. En 1987, el Air Max 1 debutó con la tecnología Air visible en el talón, que les proporcionaba a sus fans mucho más que la sensación de amortiguación Air: esta comodidad también podía verse.",
-        "img":  "img/nike/airmax-plus.webp",
+        "img":  "/img/nike/airmax-plus.webp",
         "estado": "NUEVO",
         "categoria": "Calzado"
     },
@@ -50,9 +50,9 @@
         "marca": "PUMA",
         "precio": "160.000" ,
         "descripción": "Zapatillas Puma CA PRO Classic para hombre Código: 0000101. Desde que PUMA California original fue lanzado en la década de 1980, ha estado dejando su huella en las calles. Una nueva incorporación a la familia de calzado, las Zapatillas CA Pro Classic cuentan con todos los distintivos de la silueta icónica, como líneas limpias, pero añaden perforaciones perfectas y una entresuela moldeada.",
-        "img": "img/puma/ca-pro-classic.webp",
+        "img": "/img/puma/ca-pro-classic.webp",
         "estado": "NUEVO",
-        "categoria": "Calzado"
+        "categoria": "Indumentaria"
     },
     {
         "id": 6,
@@ -60,8 +60,8 @@
         "titulo":"ZAPATILLAS NIKE DUNK LOW DE HOMBRE",
         "marca": "NIKE",
         "precio": "209.000" ,
-        "descripción": "Zapatillas Nike Dunk Low para hombre Código: 0000011.El Nike Dunk Low Retro, creado para la cancha pero que luego dominó las calles, regresa con revestimientos modernos y los colores originales del equipo. Este ícono del básquetbol rinde homenaje al estilo de los 80 con cuero premium en la parte superior que se ve bien y se siente aún mejor. La tecnología moderna del calzado aporta la comodidad del siglo XXI.",
-        "img": "img/nike/dunk-low-retro-morado.webp",
+        "descripción": "Campera Nike Windrunner Circa Nuestra campera Windrunner icónica está lista para el próximo capítulo. Confeccionada para los días lluviosos, esta campera de running superligera es repelente al agua para que la humedad nunca sea un problema. ¿Qué hay de los días soleados? La tela que bloquea los rayos UV proporciona protección en las zonas que cubre la campera. Además, es plegable y está diseñada con mucho flujo de aire y transpirabilidad para que puedas mantener la frescura en tu próxima carrera, sin importar la distancia que corras.",
+        "img": "/img/nike/dunk-low-retro-morado.webp",
         "estado": "NUEVO",
         "categoria": "Calzado"
     }

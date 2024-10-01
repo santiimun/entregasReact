@@ -4,7 +4,22 @@ const Inicio = () => {
 
     return (
         <>
-        <h1>INICIO</h1>
+        <div class="conteiner">
+            <div class="slide">
+                <ul>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    <li>
+                        <img src="" alt="" />
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
         </>
     )
 };

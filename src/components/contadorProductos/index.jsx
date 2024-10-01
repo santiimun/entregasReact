@@ -1,14 +1,7 @@
-import { useEffect, useState } from "react";
-
-const ContadorProductos = () => {
-    const [count, setCount] = useState(0);
+const ContadorProductos = ({count, setCount}) => {
 
     const incremento = () => setCount(cont => cont + 1);
     const decremento = () => setCount(cont => (cont > 0 ? cont - 1 : 0));
-
-    useEffect(() => {
-        console.log('Se renderizó');
-    }, [count]);
 
     return (
         <>

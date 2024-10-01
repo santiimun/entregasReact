@@ -1,23 +1,39 @@
-import ContadorProductos from "../contadorProductos";
+import { CarritoContext } from "../../context/carritoContext";
+import { useContext } from "react";
+import LinkMenu from "../linkMenu";
 
-const DetalleProducto = ({titulo, img, marca, descripción, precio}) =>{
+
+const DetalleProducto = ({id,titulo, img, marca, descripcion, precio}) =>{
+    const {AgregarProducto} =  useContext(CarritoContext);
+    const ParaAgregar = () =>{
+        AgregarProducto({id,titulo, img, marca, descripcion, precio});
+    }
 
     return(
-        <section className="detalle-producto">
-            <picture className="detalle-picture">
-                <img className="detalle-img" src={`/${img}`} alt="" />
-            </picture>
-            <article className="detalle-info"> 
-                <p className="detalle-marca">{marca}</p>
-                <h2 className="detalle-titulo">{titulo}</h2>
-                <p className="detalle-descripcion">{descripción}</p>
-                <p className="detalle-precio">$ {precio}</p>
-                <div className="form">
-                    <ContadorProductos />
-                    <input className="detalle-agregar-cart" type="submit" value="Agregar al Carrito"/>
-                </div>
-            </article>
-        </section>
+        <div className="detalle-general"> 
+            <div className="rutas-detalle">
+                <LinkMenu clase= "breadcrumbs" href={"/"} label = {"INICIO"}/>
+                <p>/</p>
+                <LinkMenu clase= "breadcrumbs" href={"/tienda"} label = {"TIENDA"}/>
+                <p>/</p>
+                <LinkMenu clase= "breadcrumbs"  label = {titulo}/>
+            </div>
+
+            <section className="detalle-producto">
+                <picture className="detalle-picture">
+                    <img className="detalle-img" src={`${img}`} alt="" />
+                </picture>
+                <article className="detalle-info"> 
+                    <p className="detalle-marca">{marca}</p>
+                    <h2 className="detalle-titulo">{titulo}</h2>
+                    <p className="detalle-descripcion">{descripcion}</p>
+                    <div className="form">
+                        <p className="detalle-precio">$ {precio}</p>
+                        <input className="detalle-agregar-cart" type="button"  value="Agregar al Carrito" onClick={ParaAgregar}/>
+                    </div>
+                </article>
+            </section>
+    </div>
     )
 };
 

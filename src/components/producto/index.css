@@ -1,5 +1,6 @@
 .producto{
     width: 450px;
+    height: 520px;
     position: relative;
     border: 1px solid grey;
     margin-bottom: 25px;
@@ -25,7 +26,7 @@
 }
 .producto-img-1{
     width: 400px;
-    height: 350px;
+    height: 330px;
     object-position: center;
     object-fit: contain;
 
@@ -41,9 +42,10 @@
 .producto-info{
     padding: 32px;
     gap: 16px;
-    display: flex;
+    display: grid;
+    grid-template-rows: 10px 50px 50px;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: flex-start;
 }
 .prodcuto-marca{

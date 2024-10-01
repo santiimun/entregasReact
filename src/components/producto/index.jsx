@@ -5,7 +5,7 @@ const Producto = ({titulo, precio, img, marca,id,  estado})=>{
         <article className="producto">
             <Link to={`/detalle/${id}`}>
                 <picture className="picture">
-                    <span className="producto-span">{estado}</span>
+                {estado && <span className="producto-span">{estado}</span>}
                     <img className="producto-img-1 " src={img} alt={`${titulo}-img1`} />
                     
                 </picture>

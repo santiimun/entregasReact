@@ -1,0 +1,57 @@
+
+.payment-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.payment-form {
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    width: 500px; 
+    max-width: 90%; 
+}
+.Cards{
+    width: 500px;
+}
+.form{
+    margin-top: 20px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.input-form{
+    padding: 10px;
+}
+.comprar-tarjeta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tarjeta{
+    margin-top: 30px;
+    width: 80%;
+    font-size: 25px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(63, 156, 63);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.tarjeta:hover{
+    background-color: rgb(3, 80, 22);
+}

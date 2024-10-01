@@ -1,0 +1,42 @@
+.lista-compra{
+    display: grid;
+    gap: 5px;
+    max-height: 430px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+
+.vista-compra{
+    display: flex;
+    justify-content: space-around;
+}
+.fin-compra{
+    display: grid;
+    border: 2px solid gray;
+    padding: 20px;
+    max-height: 300px;
+}
+.precio-final{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.linea-fin{
+    height: 1px;
+    background-color: gray;
+}
+.finalizar{
+    color: white;
+    font-size: 18px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.finalizar:hover{
+    background-color: #383636;
+    
+}

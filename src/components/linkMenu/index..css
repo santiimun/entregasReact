@@ -5,7 +5,10 @@
     cursor: pointer;
 }
 .link-navbar:hover{
-    
+    color: white;
+    border-bottom: 2px solid rgb(158, 155, 155)
+}
+.active{
     color: white;
     border-bottom: 2px solid rgb(158, 155, 155)
 }
