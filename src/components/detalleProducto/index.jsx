@@ -1,14 +1,21 @@
 import { CarritoContext } from "../../context/carritoContext";
 import { useContext } from "react";
 import LinkMenu from "../linkMenu";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DetalleProducto = ({id,titulo, img, marca, descripcion, precio}) =>{
     const {AgregarProducto} =  useContext(CarritoContext);
     const ParaAgregar = () =>{
         AgregarProducto({id,titulo, img, marca, descripcion, precio});
+        toast.success("Producto agregado al carrito.", {
+            position: "bottom-right",
+            autoClose: 1000, 
+            closeOnClick: true, 
+            draggable: true, 
+            className: 'alert'
+        });
     }
-
     return(
         <div className="detalle-general"> 
             <div className="rutas-detalle">
@@ -31,10 +38,11 @@ const DetalleProducto = ({id,titulo, img, marca, descripcion, precio}) =>{
                         <p className="detalle-precio">$ {precio}</p>
                         <input className="detalle-agregar-cart" type="button"  value="Agregar al Carrito" onClick={ParaAgregar}/>
                     </div>
+                    <ToastContainer/>
                 </article>
             </section>
     </div>
     )
-};
+}
 
 export default DetalleProducto;

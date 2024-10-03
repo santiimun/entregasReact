@@ -1,0 +1,34 @@
+.contacto{
+    display: grid;
+    justify-content: center;
+}
+.form-nombre{
+    width: 500px;
+    padding: 15px;
+}
+.form-apellido{
+    width: 500px;
+    padding: 15px;
+}
+.form-mail{
+    width: 500px;
+    padding: 15px;
+}
+.form-msj{
+    width: 1000px;
+    height: 200px;
+    padding: 15px;
+}
+.enviar-boton{
+    cursor: pointer;
+    color: rgb(209, 202, 202);
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(54, 51, 51);
+    text-align: center;
+    width: 150px;
+    margin-top: 30px;
+}
+.h4-contacto{
+    margin-top: 20px;
+}

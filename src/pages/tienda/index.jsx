@@ -37,7 +37,7 @@ const Tienda = () => {
             ) : fallback ? (
                 <div className="error">
                     <h2>PRODUCTOS NO ENCONTRADOS</h2>
-                    <LinkMenu clase={"error-link"} label={"IR A TIENDA"} href={"/tienda"} />
+                    <LinkMenu clase={"error-link"} label={"IR A INICIO"} href={"/"} />
                 </div>
             ) : (
                 <>

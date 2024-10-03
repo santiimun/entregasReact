@@ -1,8 +1,10 @@
+import { CarritoContext } from "../../context/CarritoContext";
 import { useContext, useState } from "react";
-import { CarritoContext } from "../../context/carritoContext";
 import LinkMenu from "../../components/linkMenu";
 import DetalleCompra from "../../components/detalleCompra";
 import PaymentForm from "../../components/tarjetaCredito";
+
+
 
 
 
@@ -15,7 +17,7 @@ const PageCarrito = () => {
     };
 
     const total = carritoProductos.reduce((acc, product) => {
-        const count = product.quantity || 0; // Asegúrate de que cada producto tenga una cantidad
+        const count = product.quantity || 0;
         return acc + (product.precio * count);
     }, 0);
 

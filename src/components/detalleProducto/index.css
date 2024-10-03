@@ -86,3 +86,10 @@
     margin-bottom: 50px;
 
 }
+.alert{
+    margin-bottom: 10px;
+    background-color: #030303; 
+    color: white; 
+    border: 2px solid #363d36; 
+    border-radius: 5px; 
+}

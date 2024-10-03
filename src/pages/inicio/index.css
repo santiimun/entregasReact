@@ -1,0 +1,60 @@
+.main-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+
+}
+.container-carrousel{
+    margin-top: 150px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    
+}
+.slide{
+    width: 200vh;
+        max-width: 1500px;
+        height: auto;
+        overflow: hidden;
+
+}
+.ul-slide{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 10s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
+}
+.img-slide{
+    width: 1500px;
+    height: 90vh;
+    padding: 35px;
+}
+
+@keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+}
+.productos-nuevos{
+    margin-top: 100px;
+}
+.nuevos-h2{
+    text-align: center;
+    color: rgb(34, 33, 33);
+    font-size: 48px;
+    font-family: "Kay Pho Du", serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -3,6 +3,14 @@
 @import './styles/reset.css';
 @import './styles/shared.css';
 
+/* PAGES */
+
+@import './pages/tienda/index.css';
+@import './pages/error404/index.css';
+@import './pages/detalle/index.css';
+@import './pages/carrito/index.css';
+@import './pages/inicio/index.css';
+@import './pages/contacto/index.css';
 
 
 /* CONTAINERS*/
@@ -26,9 +34,3 @@
 @import './components/tarjetaCredito/index.css';
 
 
-/* PAGES */
-
-@import './pages/tienda/index.css';
-@import './pages/error404/index.css';
-@import './pages/detalle/index.css';
-@import './pages/carrito/index.css';
