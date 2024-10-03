@@ -37,3 +37,4 @@ Para cualquier duda o consulta, puedes contactarnos a través de [santiago.ezequ
 ¡Únete a nosotros en Pakani y comienza tu viaje hacia un estilo de vida más sostenible! 🌱
 
 ### 🌍 Porque cada elección importa.
+
